@@ -1,0 +1,57 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.groups {
+  display: flex;
+  margin: 5px;
+  padding: 5px;
+  flex-wrap: wrap;
+  
+
+  .group {
+    margin: 2px;
+    padding: 20px;
+    min-height: 16rem;
+    background-color: rgb(245, 197, 125);
+    
+
+    .title{
+      color: #0d2802;
+      padding: 0;
+      margin-top: 0;
+    }
+  }
+  .noDrop {
+    margin: 2px;
+    padding: 20px;
+    min-height: 16rem;
+    background-color: red;
+    cursor: not-allowed !important;
+
+    .title{
+      color: rgb(247, 126, 126);
+      padding: 0;
+      margin-top: 0;
+    }
+  }
+}
+
+
+.item {
+  background-color: rgb(173, 232, 249);
+  color: rgb(194, 12, 244);
+  margin: 5px;
+  padding: 5px;
+  border: 2px green;
+  cursor: grab;
+}
+
+.notAllowed {
+  background-color: yellow;
+  color: blue;
+  margin: 5px;
+  padding: 5px;
+  border: 2px green;
+  cursor: not-allowed;
+}
